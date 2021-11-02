@@ -1,0 +1,20 @@
+@import "varirabels.scss";
+@import "price-card.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: $text-color;
+}
+
+.page {
+    background-color: $background-page;
+    width: 1440px;
+    height: 1000px;
+    overflow-x: hidden;
+}
