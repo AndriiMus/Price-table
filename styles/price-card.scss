@@ -10,21 +10,40 @@
         height: 770px;
         background-color: $background-price-card;
         margin-right: 18px;
+        overflow: hidden;
 
         .first-card {
             background-color: $green;
         }
 
-        .second-card{
+        .second-card {
             background-color: $blue;
         }
 
-        .third-card{
+        .third-card {
             background-color: $orange;
         }
 
         &:last-child {
             margin: 0;
+        }
+
+        .red-line {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #dc3f45;
+            text-transform: uppercase;
+            width: 147px;
+            height: 25px;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            transform: rotate(45deg);
+            position: relative;
+            top: 35px;
+            right: -267px;
+            
         }
 
         &__title {
@@ -69,8 +88,8 @@
             list-style-type: none;
             margin: 0;
             padding: 0;
-            
-            .price-card__picture{
+
+            .price-card__picture {
                 margin: 0 22px;
             }
 
@@ -89,7 +108,7 @@
             }
         }
 
-        &__order-btn{
+        &__order-btn {
             color: $text-color;
             height: 40px;
             width: 154px;

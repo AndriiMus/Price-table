@@ -10,6 +10,7 @@
   height: 770px;
   background-color: #334247;
   margin-right: 18px;
+  overflow: hidden;
 }
 .page .price-card .first-card {
   background-color: #5bb189;
@@ -22,6 +23,22 @@
 }
 .page .price-card:last-child {
   margin: 0;
+}
+.page .price-card .red-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dc3f45;
+  text-transform: uppercase;
+  width: 147px;
+  height: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  transform: rotate(45deg);
+  position: relative;
+  top: 35px;
+  right: -267px;
 }
 .page .price-card__title {
   margin: 0;
