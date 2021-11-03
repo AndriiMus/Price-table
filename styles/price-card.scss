@@ -28,6 +28,13 @@
             margin: 0;
         }
 
+        &:nth-child(2){
+         
+            .price-card__title{
+                margin-top: 8px;
+            }
+        }
+
         .red-line {
             display: flex;
             align-items: center;
@@ -42,8 +49,7 @@
             transform: rotate(45deg);
             position: relative;
             top: 35px;
-            right: -267px;
-            
+            right: -261px;
         }
 
         &__title {
@@ -53,6 +59,7 @@
             font-size: 35px;
             line-height: 43px;
             font-weight: 700;
+           
         }
 
         &__subtitle {
