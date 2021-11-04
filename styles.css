@@ -1,7 +1,6 @@
 .page {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
 }
 
 .price-card {
@@ -117,10 +116,15 @@ html {
   color: #ffffff;
 }
 
-.page {
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   background-color: #141b1c;
-  width: 1440px;
-  height: 1000px;
+}
+
+.page {
   overflow-x: hidden;
 }
 
