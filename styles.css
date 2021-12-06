@@ -1,3 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #141b1c;
+}
+
 .page {
   display: flex;
   flex-direction: row;
@@ -104,28 +122,6 @@
   border: 0;
   border-radius: 20px;
   margin: 40px auto;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 16px;
-  font-family: "Montserrat", sans-serif;
-  color: #ffffff;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #141b1c;
-}
-
-.page {
-  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,4 @@
 @import "varirabels.scss";
-@import "price-card.scss";
-
 * {
     box-sizing: border-box;
 }
@@ -14,11 +12,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
- 
+
     min-height: 100vh;
     background-color: $background-page;
 }
 
-.page {
-    overflow-x: hidden;
-}
+@import "price-card.scss";
